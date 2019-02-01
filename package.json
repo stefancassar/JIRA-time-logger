@@ -1,0 +1,26 @@
+{
+  "name": "jira-time-logger",
+  "version": "1.0.0",
+  "description": "App to convert Google Calendar entries into JIRA work logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefancassar/JIRA-time-logger.git"
+  },
+  "keywords": [
+    "JIRA",
+    "Google",
+    "Calendar",
+    "Work",
+    "log"
+  ],
+  "author": "Stefan Cassar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefancassar/JIRA-time-logger/issues"
+  },
+  "homepage": "https://github.com/stefancassar/JIRA-time-logger#readme"
+}
