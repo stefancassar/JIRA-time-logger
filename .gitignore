@@ -61,4 +61,5 @@ typings/
 .next
 
 \.idea/
-/config/config.js
+/config/credentials.json
+/config/token.json
