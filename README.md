@@ -1,5 +1,5 @@
 # JIRA-time-logger
-App to convert Google Calendar entries into JIRA work logs
+Node App to convert Google Calendar entries into JIRA work logs
 
 ## Configs
 1. Google calendar ID
