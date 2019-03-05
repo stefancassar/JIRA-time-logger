@@ -63,3 +63,5 @@ typings/
 \.idea/
 /config/credentials.json
 /config/token.json
+
+\.DS_Store
