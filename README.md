@@ -1,10 +1,10 @@
 # JIRA-time-logger
 Node App to convert Google Calendar entries into JIRA work logs
 
-## Configs
-1. Google calendar ID (retreivable from here: https://developers.google.com/calendar/v3/reference/calendarList/list)
+## Setup
+1. Google calendar ID (retreivable from here: https://developers.google.com/calendar/v3/reference/calendarList/list). Update config.js "calendar.id" field
 2. Enable Google Calendar API and Generate Google Auth credentials and add file in /config (seeL https://developers.google.com/calendar/quickstart/nodejs)
-3. Atlassian Auth token (available here: https://id.atlassian.com/manage/api-tokens)
+3. Atlassian Auth token (available here: https://id.atlassian.com/manage/api-tokens). Update config.js "atlassian.token" field
 
 
 ## Logging
