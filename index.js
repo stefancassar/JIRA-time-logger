@@ -10,7 +10,7 @@ const SCOPES = ['https://www.googleapis.com/auth/calendar.readonly'];
 // The file token.json stores the user's access and refresh tokens, and is
 // created automatically when the authorization flow completes for the first
 // time.
-const TOKEN_PATH = '/config/token.json';
+const TOKEN_PATH = './config/token.json';
 
 // Load client secrets from a local file.
 fs.readFile('./config/credentials.json', (err, content) => {
