@@ -155,7 +155,7 @@ function logWork(issueKey, startDateTime, durationInSeconds, comment) {
 	request(options, function (error, response, body) {
 		if (error) console.error(error);
 		console.log(
-			'Response: ' + issueKey + ' ' + response.statusCode
+			'Response: ' + issueKey + ' DateTime: ' + startDateTime + ' Status: '  + response.statusCode
 		);
 	});
 
