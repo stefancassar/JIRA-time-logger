@@ -154,9 +154,13 @@ function logWork(issueKey, startDateTime, durationInSeconds, comment) {
 
 	request(options, function (error, response, body) {
 		if (error) console.error(error);
-		console.log(
-			'Response: ' + issueKey + ' DateTime: ' + startDateTime + ' Status: '  + response.statusCode
-		);
+		let returnString = 'Response: ' + issueKey + ' DateTime: ' + startDateTime + ' Status: '  + response.statusCode
+		if(response.statusCode === 201) {
+			console.log(returnString);
+		} else {
+			console.error(returnString)
+		}
+
 	});
 
 }
